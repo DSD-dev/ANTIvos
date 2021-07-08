@@ -1,0 +1,10 @@
+import sys, os
+os.system('clear')
+os.system('chmod +x *')
+os.system('pkg install gem')
+os.system('pkg install lolcat')
+print(' ')
+print('Инструкция перед запуском:')
+print('[1]Убедитесь что все приложения закрыты')
+print('[2]Для лучшего результата должно быть хорошее интернет соеденение')
+print('[3]Слабым устройствам лучше не запускать!')
