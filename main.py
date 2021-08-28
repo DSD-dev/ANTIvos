@@ -19,11 +19,12 @@ os.system('clear')
 
 print(Fore.RED + pyfiglet.figlet_format("ANTIvos"))
 print('(===============)')
+print(Fore.YELLOW + 'update!')
 print(Fore.GREEN + 'made by Veos')
 print('Telegram: https://t.me/HackProgramsFromVeos')
 print(Fore.RED + '(===============)')
 print(Fore.BLUE + '+79999999999')
-phone = input('Номер: ')
+phone = input('Номер}> ')
 print('(===============)')
 
 try:

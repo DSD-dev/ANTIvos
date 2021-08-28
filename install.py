@@ -1,15 +1,20 @@
 import sys, os
+from colorama import Fore
+import time
 os.system('clear')
 os.system('chmod +x install.py; chmod +x instructions.py; chmod +x main.py')
 print('Установка необходимых дерикторий/зависемостей')
+print(Fore.BLUE + 'upgrade pip.%.%.')
 os.system('pip install --uprade pip')
+time.sleep(5)
 os.system('pip3 install pyfiglet')
-os.system('pip3 install colorama')
-os.system('pip3 install config')
-os.system('pip3 install threading')
+print(Fore.BLUE + 'Установка pyfiglet.%.%.')
 os.system('pip3 install bs4')
+time.sleep(5)
 os.system('pip3 install requests')
+print(Fore.BLUE + 'Установка requests.%.%.')
 os.system('pip3 install user_agent')
+time.sleep(5)
 os.system('clear')
 print('[~]Установка завершена!')
 print('=======================')
